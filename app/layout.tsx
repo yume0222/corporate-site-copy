@@ -9,7 +9,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://corporate-site-copy.vercel.app'),
   title: {
     template: '%s | 企業サイト',
     default: '企業サイト',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     images: ['/ogp.png'],
   },
   alternates: {
-    canonical: 'http://localhost:3000',
+    canonical: 'https://corporate-site-copy.vercel.app',
   },
 };
 

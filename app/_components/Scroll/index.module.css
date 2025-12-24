@@ -1,0 +1,41 @@
+.scroll {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  color: #fff;
+  padding: 10px 10px 90px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  -ms-writing-mode: tb-rl;
+  -ms-writing-mode: tb-lr;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+.scroll::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  height: 80px;
+  background: #fff;
+  content: "";
+  -webkit-animation: scrollDownLine 1.5s infinite;
+  animation: scrollDownLine 1.5s infinite;
+}
+
+@media screen and (min-width: 768px) {
+  .scroll {
+    right: 5px;
+    padding: 10px 10px 60px;
+  }
+  .scroll::after {
+    height: 50px;
+  }
+}

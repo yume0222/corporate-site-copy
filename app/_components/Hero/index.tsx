@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import ButtonLink from "../ButtonLink";
 import ButtonLinkStyles from "../ButtonLink/index.module.css";
+import Scroll from "../Scroll";
 
 export default function Hero() {
   return (
@@ -20,6 +21,7 @@ export default function Hero() {
               contact
             </ButtonLink>
           </div>
+          <Scroll />
         </div>
       </div>
     </>

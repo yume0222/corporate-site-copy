@@ -86,7 +86,7 @@ export default async function Home() {
         </div>
         <Media services={service.contents} />
         <div className={styles.button}>
-          <ButtonLink className={ButtonLinkStyles.buttonCenter}>
+          <ButtonLink href="/service" className={ButtonLinkStyles.buttonCenter}>
             more
           </ButtonLink>
         </div>
@@ -109,7 +109,7 @@ export default async function Home() {
             <span>ご購入やお申込み数の増加などを実現します！</span>
           </p>
           <div className={styles.button}>
-            <ButtonLink className={ButtonLinkStyles.buttonCenter}>
+            <ButtonLink href="/works" className={ButtonLinkStyles.buttonCenter}>
               more
             </ButtonLink>
           </div>
@@ -142,7 +142,7 @@ export default async function Home() {
             <span>夢を実現する手助けをさせてください。</span>
           </div>
           <div className={styles.button}>
-            <ButtonLink className={ButtonLinkStyles.buttonCenter}>
+            <ButtonLink href="/company" className={ButtonLinkStyles.buttonCenter}>
               more
             </ButtonLink>
           </div>
@@ -163,7 +163,7 @@ export default async function Home() {
           </div>
           <p className={styles.recruitText}>私たちと一緒に働きませんか？</p>
           <div className={styles.button}>
-            <ButtonLink className={ButtonLinkStyles.buttonCenter}>
+            <ButtonLink href="/recruit" className={ButtonLinkStyles.buttonCenter}>
               more
             </ButtonLink>
           </div>
