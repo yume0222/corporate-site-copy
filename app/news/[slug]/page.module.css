@@ -1,0 +1,28 @@
+.postList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 10px 0;
+  border-top: 1px solid #b8aed5;
+  border-bottom: 1px solid #b8aed5;
+}
+.postItem {
+  flex: 0 1 50%;
+  padding: 10px 20px;
+}
+.postItem:hover {
+  background-color: #f9f7ff;
+}
+.postItem:not(:last-child) {
+  border-right: 1px solid #b8aed5;
+}
+.newsLink {
+  margin-top: 20px;
+  text-align: center;
+}
+.link {
+  text-transform: uppercase;
+}
+.newsLink:hover {
+  color: var(--color-font-link);
+}

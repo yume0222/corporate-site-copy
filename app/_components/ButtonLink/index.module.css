@@ -1,0 +1,49 @@
+.button {
+  position: relative;
+  display: block;
+  width: 220px;
+  padding: 18px 0;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);
+  background-size: 200% auto;
+  color: var(--color-font-white);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .1em;
+  transition: .3s;
+  text-transform: uppercase;
+}
+.button::after {
+  position: absolute;
+  top: 50%;
+  right: 1.5em;
+  content: "\f0da";
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  transition: .3s;
+  transform: translateY(-50%);
+}
+.button:hover {
+  background-position: right center;
+}
+.buttonTransparent {
+  border: 1px solid #fff;
+  background: none;
+}
+.buttonTransparent:hover {
+  opacity: .8;
+}
+.buttonCenter {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .button:hover::after {
+    right: 1.2em;
+  }
+  .buttonCenterDesktop {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,32 @@
+.heading {
+  color: var(--color-font-primary);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.sub {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  letter-spacing: .05em;
+}
+.headingWhite {
+  color: var(--color-font-white);
+}
+.headingCenter {
+  text-align: center;
+}
+.headingCenterSp {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+  .headingCenterSp {
+    text-align: left;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  position: sticky;
+  top: 64px;
+  z-index: 1;
+  background-color: #f0f0f0;
+  padding: 8px 0;
+}
+.list {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.gt {
+  padding: 0 .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

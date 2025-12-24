@@ -1,0 +1,35 @@
+.footer {
+  padding: 60px 30px;
+  background-color: #120e19;
+  color: var(--color-bg-white);
+}
+.navList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.navItem {
+  text-transform: uppercase;
+}
+.navLink {
+  color: var(--color-font-white);
+}
+.navLink:hover,
+.copyrightLink:hover {
+  opacity: .8;
+}
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+.copyrightLink {
+  color: var(--color-font-link);
+}
+
+@media screen and (min-width: 768px) {
+  .navList {
+    justify-content: center;
+    gap: 20px;
+  }
+}

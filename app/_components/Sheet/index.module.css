@@ -1,0 +1,23 @@
+.section {
+  padding: 40px 0;
+}
+.inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.newsInner {
+  max-width: 950px;
+}
+.articleInner {
+  max-width: 750px;
+}
+.contactInner {
+  max-width: 780px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+}

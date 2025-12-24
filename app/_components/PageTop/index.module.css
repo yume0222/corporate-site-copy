@@ -1,0 +1,21 @@
+.link {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--color-bg-white);
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+  transition: opacity .3s ease;
+}
+.link:hover {
+  opacity: .8;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.visible {
+  opacity: 1;
+}

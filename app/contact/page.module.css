@@ -1,0 +1,22 @@
+.mt {
+  margin-top: 40px;
+}
+
+.text {
+  text-align: center;
+}
+.text span {
+  display: block;
+}
+.contactForm {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .text span {
+    display: inline;
+  }
+  .contactForm {
+    margin-top: 40px;
+  }
+}

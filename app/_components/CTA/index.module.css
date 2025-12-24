@@ -1,0 +1,23 @@
+.bg {
+  padding: 60px 0;
+  background-color: #f0f0f0;
+}
+.text {
+  margin-top: 30px;
+  text-align: center;
+}
+.text span {
+  display: block;
+}
+.button {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    padding: 70px 0;
+  }
+  .text span {
+    display: inline;
+  }
+}

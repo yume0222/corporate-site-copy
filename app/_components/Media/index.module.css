@@ -1,0 +1,50 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.text {
+  margin-top: 15px;
+}
+.text span {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .listCol {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .itemCol {
+    grid-template-columns: 40% 1fr;
+    gap: 50px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .titleCol {
+    text-align: left;
+  }
+  .text {
+    margin-top: 20px;
+  }
+}

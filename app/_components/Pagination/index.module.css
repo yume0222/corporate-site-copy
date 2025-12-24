@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.item {
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7633a4, #250d65);
+  color: var(--color-font-white);
+  font-size: 20px;
+  font-weight: bold;
+}
+.current {
+  background: #f1ebf8;
+  color: var(--color-font-primary);
+}
+.current:hover {
+  opacity: .9;
+  text-decoration: none;
+}

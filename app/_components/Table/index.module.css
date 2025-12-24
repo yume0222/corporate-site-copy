@@ -1,0 +1,38 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 0;
+  border-bottom: solid 1px #ddd;
+  font-size: 15px;
+}
+.header {
+  font-weight: bold;
+}
+.data {
+  margin-top: 5px;
+}
+.data span {
+  display: block;
+}
+.list {
+  margin-top: 10px;
+}
+.list li {
+  list-style: inside;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    grid-template-columns: 20% 80%;
+    padding: 30px 10px;
+  }
+  .data {
+    margin-top: 0;
+    padding-left: 10px;
+  }
+}
