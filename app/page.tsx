@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Hero from "./_components/Hero";
 import Sheet from "./_components/Sheet";
-import SheetStyles from "./_components/Sheet/index.module.css";
 import Heading from "./_components/Heading";
 import HeadingStyles from "./_components/Heading/index.module.css";
 import NewsList from "./_components/NewsList";
