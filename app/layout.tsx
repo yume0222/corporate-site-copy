@@ -9,21 +9,21 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://corporate-site-copy.vercel.app'),
+  metadataBase: new URL("https://corporate-site-copy.vercel.app"),
   title: {
-    template: '%s | 企業サイト',
-    default: '企業サイト',
+    template: "%s | 企業サイト",
+    default: "企業サイト",
   },
   description:
-    '無料コーディング練習所の企業サイトをNext.jsで作成したサイトです。',
+    "無料コーディング練習所の企業サイトをNext.jsで作成したサイトです。",
   openGraph: {
-    title: '企業サイト',
+    title: "企業サイト",
     description:
-      '無料コーディング練習所の企業サイトをNext.jsで作成したサイトです。',
-    images: ['/ogp.png'],
+      "無料コーディング練習所の企業サイトをNext.jsで作成したサイトです。",
+    images: ["/ogp.png"],
   },
   alternates: {
-    canonical: 'https://corporate-site-copy.vercel.app',
+    canonical: "https://corporate-site-copy.vercel.app",
   },
 };
 
@@ -43,11 +43,13 @@ export default function RootLayout({
   return (
     <html lang="ja" className={notoSansJP.variable}>
       <body>
-        <Header />
-        {children}
-        <Footer />
-        <div className={styles.pageTop}>
-          <PageTop />
+        <div className="layout">
+          <Header />
+          <main className="content">{children}</main>
+          <Footer />
+          <div className={styles.pageTop}>
+            <PageTop />
+          </div>
         </div>
       </body>
     </html>

@@ -189,6 +189,22 @@ body {
   color: var(--color-font-base);
   font-family: var(--font-family-base);
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 15px;
