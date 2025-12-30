@@ -43,14 +43,14 @@ export default function RootLayout({
   return (
     <html lang="ja" className={notoSansJP.variable}>
       <body>
-        <div className="layout">
+        <div className="content">
           <Header />
-          <main className="content">{children}</main>
-          <Footer />
+          <main>{children}</main>
           <div className={styles.pageTop}>
             <PageTop />
           </div>
         </div>
+        <Footer />
       </body>
     </html>
   );
