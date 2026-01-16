@@ -22,12 +22,32 @@
   font-size: 12px;
   font-weight: normal;
 }
-.textfield {
-  width: 300px;
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 35px;
+}
+.radioItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.radio {
+  border: 1px solid #333;
+  border-radius: 50%;
 }
 .textarea {
   min-width: 600px;
   min-height: 200px;
+}
+.select {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  color: var(--color-font-base);
+  background-color: var(--color-bg-white);
 }
 .button {
   margin-top: 20px;
@@ -46,5 +66,9 @@
 @media screen and (min-width: 768px) {
   .form {
     padding: 90px;
+  }
+  .textfield,
+  .select {
+    width: 300px;
   }
 }

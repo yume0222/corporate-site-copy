@@ -7,3 +7,6 @@
   color: var(--color-font-base);
   background-color: var(--color-bg-white);
 }
+.textarea::placeholder {
+  color: #757575;
+}
